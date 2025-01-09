@@ -13,7 +13,7 @@ export const SocialMediasContainer = styled.nav`
   display: flex;
   flex-direction: column;
   svg {
-    margin-right: 0.2rem;
+    margin-right: 0.4rem;
   }
   svg:hover {
     color: ${(props) => props.theme["Yellow-500"]};

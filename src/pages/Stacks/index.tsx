@@ -8,6 +8,7 @@ import {
   SiVite,
   SiDocker,
   SiFigma,
+  SiStyledcomponents,
 } from "react-icons/si"
 import { VscVscode } from "react-icons/vsc"
 import { StackContainer, StacksMain, TextContainer } from "./styles"
@@ -24,6 +25,7 @@ const iconsArray = [
   { icon: VscVscode, size: 50, color: "#1572B6", label: "VSCODE" },
   { icon: SiDocker, size: 50, color: "#2496ED", label: "DOCKER" },
   { icon: SiFigma, size: 50, color: "#F24E1E", label: "FIGMA" },
+  { icon: SiStyledcomponents, size: 50, color: "#fff", label: "STYLED COMPONENTS" },
 ]
 
 export function Stacks() {
