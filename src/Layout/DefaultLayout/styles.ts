@@ -5,7 +5,6 @@ export const LayoutContainer = styled.div`
 `
 export const LayoutContent = styled.div`
   max-width: calc(100% - 5rem);
-  height: 100vh;
   margin: 2rem 30rem;
   padding: 2.5rem;
   display: flex;

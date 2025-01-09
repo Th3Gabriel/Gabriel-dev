@@ -8,7 +8,6 @@ export const FooterContainer = styled.footer`
   padding: 2rem 0;
   text-align: center;
   width: 100%;
-  margin-top: 2rem;
 `
 export const SocialMediasContainer = styled.nav`
   display: flex;
