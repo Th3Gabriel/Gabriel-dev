@@ -15,7 +15,7 @@ export const TextContainer = styled.div`
     line-height: 1.6;
   }
   p {
-    color: ${(props) => props.theme["Gray-200"]};
+    color: ${(props) => props.theme["Gray-100"]};
   }
 `
 export const StacksMain = styled.main`

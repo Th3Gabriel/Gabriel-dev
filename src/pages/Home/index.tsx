@@ -13,9 +13,7 @@ import {
   HomeContainer,
   MediasContainer,
 } from "./styles"
-import { GrResume } from "react-icons/gr"
 import { NavLink } from "react-router-dom"
-import { About } from "../About"
 
 export function Home() {
   return (
