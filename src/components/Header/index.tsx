@@ -5,7 +5,7 @@ import { Sun, Moon } from "phosphor-react"
 import { useState } from "react"
 
 export function Header() {
-  const [isLightMode, setIsLightMode] = useState(null)
+  const [isLightMode, setIsLightMode] = useState(false)
 
   function handleToggleTheme() {
     setIsLightMode(!isLightMode)
@@ -41,7 +41,7 @@ export function Header() {
 
       {/* Tema */}
       <ThemesContainer onClick={handleToggleTheme}>
-        {isLightMode ? <Sun size={24} /> : <Moon size={24} />}
+        {isLightMode ? <Moon size={24} /> : <Sun size={24} />}
       </ThemesContainer>
     </HeaderContainer>
   )
